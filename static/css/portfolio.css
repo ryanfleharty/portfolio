@@ -1,0 +1,38 @@
+h1, h2, h3, h4, h5 {
+    text-align: center;
+    color: #4F5D64;
+}
+a h4 {
+    color: #1EAEDB;
+}
+p {
+    color: #29293d;
+}
+.hero {
+    padding: 3em 0 0 0;
+}
+.menu {
+    padding: 1em .5em 1em .5em;
+}
+button {
+    width: 100%;
+    background-color: white;
+}
+body {
+    background-image: url("../img/seamless_paper_texture.png"); /*Background image from subtle patterns*/
+}
+ul {
+    list-style-type: none;
+}
+.about_div button {
+    width: 90%;
+}
+.about_div h4 {
+    border-bottom: 2px solid #1EAEDB;
+}
+.hero h5 {
+    border: none;
+}
+h5 {
+    border-bottom: 2px solid #1EAEDB;
+}
