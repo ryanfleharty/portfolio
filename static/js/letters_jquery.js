@@ -92,7 +92,7 @@ $(document).ready(function(){
         })
         $('body').on('keyup', function(event){
             if(event.which == 8 && chosen_letters.length > 0){ //delete key function removes the last letter added and puts it back in the availble pool
-                $('.chosen_letter').last().remove();
+                $('.chosen_letter:last').remove();
                 var popped_letter = chosen_letters.pop();
                 available_letters.push(popped_letter);
                 $('.letters_available').append("<button class='available_letter "+popped_letter+"'>" + popped_letter + "</button>")
